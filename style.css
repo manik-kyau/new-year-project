@@ -12,7 +12,7 @@ body{
 .banner{
     
     height: 550px;
-    background-image: url('../images/banner.png');
+    background-image: url('images/banner.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -79,7 +79,7 @@ section{
 .party-container{
     padding: 0px 100px;
     height: 550px;
-    background-image: url('../images/vector.png');
+    background-image: url('images/vector.png');
     background-repeat: no-repeat;
     background-size: 100%;
     filter: brightness(90%);
