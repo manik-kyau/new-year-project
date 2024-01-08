@@ -107,7 +107,7 @@ section{
     margin-top: 10px;
 }
 
-.btn-primary{
+.party a{
     padding: 25px 35px;
     font-size: 20px;
     color: yellow;
@@ -121,47 +121,30 @@ section{
     width: 300px;
     height: 330px;
 }
-/*
-.banner{
-    margin: 100px auto;
-    width: 1160px;
-    height: 520px;
-    border-radius: 20px;
-    background-image: url('../images/Vectorrr.png');
-    background-repeat: no-repeat;
-
+/* section no. 3 style  */
+.hotel-container{
+    margin: 100px 0px;
+    padding: 100px 0px;
+    border-radius: 10px;
+    background-color: #f8e3d5;
+    text-align: center;
 }
-.banner-container{
-    border: 1px solid green;
-    display: flex;
-    justify-content: space-between;
-
+.h-title{
+    color: #070211;
+    font-size: 35px;
+    font-weight: 600;
 }
-.banner-title{
-    width: 542px;
-    color: #FFF;
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 800;
-}
-
-.banner-description{
-    paddding:
-    width: 597px;
-    color: rgba(255, 255, 255, 0.80);
-    font-size: 18px;
-    font-weight: 400;
-    align-items: center;
+.h-title span{
+    color: #F00;
 }
 .btn-primary{
-    padding: 20px 35px;
-    font-size: 20px;
-    color: lime;
-    text-decoration: none;
-    display: block;
+    margin-top: 40px;
+    padding: 20px 80px;
+    font-size: 22px;
+    border-radius: 8px;
+    border: none;
+    background: #F00;
+    color: white;
+    font-weight: bold;
+
 }
-.profile-image{
-    height: 250px;
-    width: 200px;
-}
-*/
