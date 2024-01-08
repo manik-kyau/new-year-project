@@ -40,7 +40,7 @@ body{
     font-weight: 900;
     margin-top: 0px;
 }
-/*  Section styling   */
+/*  Section 1 styling   */
 section{
     max-width: 1180px;
     margin: 0px auto;
@@ -75,7 +75,7 @@ section{
     
 }
 
-/* Party Section Styles    */
+/*  Section 2 Styles    */
 .party-container{
     padding: 0px 100px;
     height: 550px;
@@ -121,7 +121,8 @@ section{
     width: 300px;
     height: 330px;
 }
-/* section no. 3 style  */
+/* section 3 styling  */
+
 .hotel-container{
     margin: 100px 0px;
     padding: 100px 0px;
@@ -147,4 +148,76 @@ section{
     color: white;
     font-weight: bold;
 
+}
+/*    section 4 styling   */
+
+.section4-container{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-offer{
+    width: 320px;
+}
+
+.sec-sub-title{
+    color: #F00;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+
+.sec-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.sec-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*  section image   */
+
+.sec-image {
+    padding: 20px 20px;
+    border: 5px solid #F00;
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+    
+}
+.sec-image img{
+    height: 240px;
+    width: 240px;
+   
+
+}
+
+/*  section 2024  */
+
+.section-2024{
+    width: 300px;
+}
+
+.title-2024{
+    color: #F00;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+.sec-description{
+
+}
+
+.section-2024 img{
+    margin-top: 10px;
+  width: 120px;
+  height: 150px;
 }
