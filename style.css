@@ -331,7 +331,7 @@ section{
     padding: 100px 0px;
     text-align: center;
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+    background: rgba(148, 6, 6, 0.05);
 }
 .subscribe-container img{
     width: 150px;
@@ -339,7 +339,7 @@ section{
 }
 
 .subscribe-content{
-    width: 700px;
+    width: 800px;
     margin: 0px auto;
 }
 .subscribe-content h1{
@@ -355,13 +355,73 @@ section{
     margin-top: 20px;
 }
 
+form{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 30px;
+    display: flex;
+}
+
 form input{
-    width: 450px;
-    height: 40px;
+    background: #FFF;
+    width: 400px;
     border: none;
     border-radius: 50px 0px 0px 50px;
     flex-grow: 1;
 }
-::placeholder{
+
+form input::placeholder{
     font-size: 20px;
+    padding-left: 7px;
+}
+.btn-subscribe{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+    color: white;
+}
+
+/*      footer styling       */
+
+.footer-container{
+    width: 1440px;
+    padding: 100px 0px;
+    background: #070211;
+    border: 2px solid green;
+}
+.footer-container h5{
+    color: white;
+}
+
+.footer-container .footer-up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-up .footer-content .content1>img,h5{
+    position: absolute;
+    
+}
+
+.footer-up .footer-content .content2{
+}
+
+.footer-middle{
+    padding: 40px 0px;
+    text-align: center;
+    gap: 30px;
+}
+
+.footer-middle img{
+    width: 60px;
+    height: 60px;
+    padding: 0px 20px;
+}
+
+.footer-down{
+    display: flex;
+    justify-content: space-between;
 }
