@@ -4,6 +4,10 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.container{
+    width: 1140px;
+}
+
 span{
     color: #F00;
 }
@@ -315,4 +319,49 @@ section{
     width: 360px;
     height: 380px;
     box-shadow: 4px 4px 12px 3px rgb(145, 135, 135);
+}
+
+
+/* section 7 styling   */
+
+
+.subscribe-container{
+    width: 1140px;
+    margin: 100px auto;
+    padding: 100px 0px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-container img{
+    width: 150px;
+    height: 150px;
+}
+
+.subscribe-content{
+    width: 700px;
+    margin: 0px auto;
+}
+.subscribe-content h1{
+    color: #070211;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 50px 0px 0px 0px;
+}
+.subscribe-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+form input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    flex-grow: 1;
+}
+::placeholder{
+    font-size: 20px;
 }
