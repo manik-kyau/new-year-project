@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    max-width: 1180px;
+    max-width: 1140px;
 }
 
 span{
@@ -55,9 +55,10 @@ span{
 }
 /*  Section 1 styling   */
 section{
-    max-width: 1180px;
+    max-width: 1140px;
     margin: 0px auto;
 }
+
 .section-container{
     margin-top: 80px;
     text-align: center;
@@ -81,6 +82,7 @@ section{
     margin-top: 10px;
 }
 .sectiom-image{
+    margin: 65px 0px 50px 0px;
     width: 550px;
     height: 450px;
     
@@ -145,6 +147,7 @@ section{
     color: #070211;
     font-size: 35px;
     font-weight: 600;
+    margin-bottom: 25px;
 }
 
 .btn-primary{
@@ -175,7 +178,6 @@ section{
     font-weight: 400;
     margin-bottom: 0px;
 }
-
 
 .sec-title{
     color: #070211;
@@ -213,20 +215,23 @@ section{
 .title-2024{
     font-size: 35px;
     font-weight: 700;
-    
 }
 
 .sec-description{
-
+    margin-top: 15px;
 }
 
 .section-2024 img{
-    margin-top: 10px;
+    margin-top: 20px;
   width: 120px;
   height: 150px;
 }
 
 /*    section  5    */
+
+.function-container{
+    margin-bottom: 100px;
+}
 
 .function-heading{
     width: 700px;
@@ -236,12 +241,14 @@ section{
 }
 .function-sub-title{
     color: #070211;
+    margin-bottom: 15px;
 }
 
 .function-title{
     color: #070211;
     font-size: 45px;
     font-weight: 800;
+    margin-bottom: 15px;
 }
 
 .function-description{
@@ -249,9 +256,9 @@ section{
     font-size: 18px;
     font-weight: 400;
 }
-
 .function-content{ 
     position: relative;
+    margin-bottom: 100px;
 }
 
 .function-image{
@@ -287,7 +294,7 @@ section{
 /*       section 6  styling    */
 
 .gift-container{
-    margin: 100px 0px;
+    margin-top: 800px;
 }
 
 .gift-container h4{
@@ -319,7 +326,7 @@ section{
 }
 .gift-option a img{
     border-radius: 16px;
-    width: 360px;
+    width: 350px;
     height: 380px;
     box-shadow: 4px 4px 12px 3px rgb(145, 135, 135);
 }
@@ -329,7 +336,7 @@ section{
 
 
 .subscribe-container{
-    width: 1140px;
+    ;
     margin: 100px auto;
     padding: 100px 0px;
     text-align: center;
@@ -360,7 +367,7 @@ section{
 
 form{
     max-width: 600px;
-    margin: 0px auto;
+    margin: 20px auto;
     padding: 30px;
     display: flex;
 }
