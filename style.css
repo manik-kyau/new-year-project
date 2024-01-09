@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 1140px;
+    max-width: 1180px;
 }
 
 span{
@@ -149,6 +149,7 @@ section{
 
 .btn-primary{
     margin-top: 40px;
+    background: #F00;
     padding: 20px 80px;
     font-size: 22px;
     border-radius: 8px;
@@ -249,40 +250,38 @@ section{
     font-weight: 400;
 }
 
-.function-content{
-    border: 2px solid green;
+.function-content{ 
+    position: relative;
 }
 
-.image1{
-    width: 230px;
-    height: 236px;
+.function-image{
     position: absolute;
-  /*  position: relative;
-      left: 750px;
-      top: 70px;*/
-    
 }
-.image2{
-    position: absolute;
-    height: 364px;
-    width: 320px;
-    float: right;
-
-}
-
-.image3{
-    width: 400px;
+.function-image .image1{
+    width: 380px;
     height: 406px;
-   
-    /*position: relative;
-    bottom: -150px;*/
-
+    float: right;
 }
-
-.image4{
+.function-image .image2{
     width: 100%;
     height: 180px;
     border-radius: 8px 0px 8px 8px;
+}
+
+.function-image .image3{
+    height: 400px;
+    width: 410px;
+    position: relative;
+    bottom: -140px;
+    left: 120px;
+}
+
+.function-image .image4{
+    width: 230px;
+    height: 236px;
+    position: absolute;
+    left: 680px;
+    top: 90px;
 }
 
 /*       section 6  styling    */
